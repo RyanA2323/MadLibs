@@ -11,6 +11,8 @@
 		A0B80003255A2E390035D001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B80001255A2E390035D001 /* Main.storyboard */; };
 		A0B80005255A2E3D0035D001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B80004255A2E3D0035D001 /* Assets.xcassets */; };
 		A0B80008255A2E3D0035D001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B80006255A2E3D0035D001 /* LaunchScreen.storyboard */; };
+		A0B80012255AD1170035D001 /* MadLibLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B80011255AD1170035D001 /* MadLibLines.swift */; };
+		A0B80014255C5C3A0035D001 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B80013255C5C3A0035D001 /* SecondViewController.swift */; };
 		A0B8FFFC255A2E390035D001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B8FFFB255A2E390035D001 /* AppDelegate.swift */; };
 		A0B8FFFE255A2E390035D001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B8FFFD255A2E390035D001 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -20,6 +22,8 @@
 		A0B80004255A2E3D0035D001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0B80007255A2E3D0035D001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0B80009255A2E3D0035D001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B80011255AD1170035D001 /* MadLibLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibLines.swift; sourceTree = "<group>"; };
+		A0B80013255C5C3A0035D001 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A0B8FFF8255A2E390035D001 /* MadLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B8FFFB255A2E390035D001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0B8FFFD255A2E390035D001 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 		A0B8FFEF255A2E380035D001 = {
 			isa = PBXGroup;
 			children = (
+				A0B80011255AD1170035D001 /* MadLibLines.swift */,
 				A0B8FFFA255A2E390035D001 /* MadLibs */,
 				A0B8FFF9255A2E390035D001 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				A0B8FFFD255A2E390035D001 /* SceneDelegate.swift */,
 				A0B8FFFF255A2E390035D001 /* ViewController.swift */,
 				A0B80001255A2E390035D001 /* Main.storyboard */,
+				A0B80013255C5C3A0035D001 /* SecondViewController.swift */,
 				A0B80004255A2E3D0035D001 /* Assets.xcassets */,
 				A0B80006255A2E3D0035D001 /* LaunchScreen.storyboard */,
 				A0B80009255A2E3D0035D001 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B80012255AD1170035D001 /* MadLibLines.swift in Sources */,
 				A0B80000255A2E390035D001 /* ViewController.swift in Sources */,
 				A0B8FFFC255A2E390035D001 /* AppDelegate.swift in Sources */,
+				A0B80014255C5C3A0035D001 /* SecondViewController.swift in Sources */,
 				A0B8FFFE255A2E390035D001 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
